@@ -3,7 +3,7 @@ package src;
 import java.util.ArrayList;
 
 public class ItensColecionaveis {
-    
+
     private int codigo;
     private String nome;
     private String dataAquisicao;
@@ -23,5 +23,19 @@ public class ItensColecionaveis {
         this.revistas = new ArrayList<Revista>();
         this.dvds = new ArrayList<Dvd>();
     }
+
+    public ArrayList<Cd> ImprimirListaCd () {
+        return 
+    }
+
+    public ArrayList<Dvd> ImprimirListaDvd () {
+        return 
+    }
+
+    public ArrayList<Livro> imprimirListaLivros () {
+        return
+    }
+
+    
 
 }
